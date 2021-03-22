@@ -9,7 +9,6 @@ class Frame:
         self.score1 = 0
         self.score2 = 0
 
-
     def create_list(self):
         self.score_list_1.append(self.name1)
         self.score_list_2.append(self.name2)
@@ -36,7 +35,6 @@ class Frame:
         # score_list1 = ['Neo', '81', 'X', '6/', '81', '9/', 'X', 'X', 'X', '9/', 'XX8']
         Frame.calculate_score(self, self.score_list_1)
         Frame.calculate_score(self, self.score_list_2)
-
 
     def calculate_score(self, score_list):
         score_list_add = []

@@ -14,6 +14,7 @@ def play(players):
     else:
         print('Win {}'.format(player_second), 'with Score ', play_bowl.score2, 'againts', play_bowl.score1)
 
+
 if __name__ == '__main__':
     players = input('Enter the names othe players separted by a space:')
     play(players)
