@@ -13,7 +13,7 @@ class Frame:
     def create_list(self):
         self.score_list_1.append(self.name1)
         self.score_list_2.append(self.name2)
-        print(self.score_list_1, self.score_list_2)
+        # print(self.score_list_1, self.score_list_2)
 
     def save_score(self, name, result, frame):
         if name == self.name1:
@@ -48,7 +48,6 @@ class Frame:
                 score_list.append(i)
             else:
                 score_list.append(i)
-        print(score_list)
         score = 0
 
         for i in range(1, 10):
@@ -87,8 +86,12 @@ class Frame:
 
         if score_list[0] == self.name1:
             self.score1 = score
+            score_list_add.insert(0, self.name1)
+            print(score_list_add)
         else:
             self.score2 = score
+            score_list_add.insert(0, self.name2)
+            print(score_list_add)
 
 
 
