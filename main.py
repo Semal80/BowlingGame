@@ -16,7 +16,7 @@ def play(players):
 
 
 if __name__ == '__main__':
-    players = input('Enter the names othe players separted by a space:')
+    players = input('Enter the names players separted by a space:')
     play(players)
 
 
